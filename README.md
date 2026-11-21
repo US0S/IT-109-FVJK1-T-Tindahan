@@ -8,7 +8,7 @@ Full-stack implementation of Project Idea 4.
 | ------------- | ------------------------------------------------- |
 | Frontend      | Nuxt 3, TypeScript, Tailwind CSS                  |
 | Backend       | Spring Boot (Java)                                |
-| Database      | PostgreSQL / pgAdmin                              |
+| Database      | pgAdmin                                           |
 | Security      | Spring Security, JWT HttpOnly cookie, BCrypt      |
 | UI components | Shadcn-Vue-compatible Vue components and Tailwind |
 
@@ -17,7 +17,6 @@ Full-stack implementation of Project Idea 4.
 ```text
 frontend/  Nuxt 3 frontend
 backend/   Spring Boot REST API
-reference/ Final-project PDF and backend reference archive
 ```
 
 ## Roles
