@@ -76,11 +76,11 @@ Nuxt proxies `/api/**` to the Spring Boot backend.
 
 ## Seed Accounts
 
-| Nickname          | Email                         | Password        | Role            |
-| ----------------- | ----------------------------- | --------------- | --------------- |
-| `super_admin`     | `super.admin@campus.edu`      | `CampusAdmin1!` | Super Admin     |
-| `event_organizer` | `organizer@campus.edu`        | `Organizer1!`   | Event Organizer |
-| `campus_attendee` | `attendee@campus.edu`         | `Attendee1!`    | Attendee        |
+| Nickname          | Email                    | Password        | Role            |
+| ----------------- | ------------------------ | --------------- | --------------- |
+| `super_admin`     | `super.admin@campus.edu` | `CampusAdmin1!` | Super Admin     |
+| `event_organizer` | `organizer@campus.edu`   | `Organizer1!`   | Event Organizer |
+| `campus_attendee` | `attendee@campus.edu`    | `Attendee1!`    | Attendee        |
 
 Login uses email. Username/nickname is displayed after sign-in.
 
@@ -121,3 +121,5 @@ Password:
 - JWT is stored in an HttpOnly session cookie.
 - PostgreSQL queries use JPA repositories.
 - Frontend input is validated before requests and backend DTOs validate again.
+
+# IT-109

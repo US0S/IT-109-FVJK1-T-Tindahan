@@ -37,8 +37,8 @@ Start the backend from the `backend/` folder:
 
 | Page         | Purpose                                               |
 | ------------ | ----------------------------------------------------- |
-| `/login`     | Sign in with email and password                         |
-| `/register`  | Register with nickname, email, password, and role       |
+| `/login`     | Sign in with email and password                       |
+| `/register`  | Register with nickname, email, password, and role     |
 | `/dashboard` | Role-based dashboard                                  |
 | `/events`    | Published event listings                              |
 | `/organizer` | Event Organizer workspace and ticket verification     |
@@ -69,8 +69,6 @@ Password:
 ```text
 ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d@$!%*?&#]{8,64}$
 ```
-
-Example valid password: `Lolipopmania12`
 
 ## Build
 
